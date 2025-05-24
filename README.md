@@ -31,9 +31,16 @@
 
 #### Dicionário de Dados
 
-| **Variáveis** | **Descrição** | **Tipo** | 
-|---------------|---------------| --------------- |
-| | | |
+Através de uma matriz de correlação, foi possível identificar que determinadas caracteristicas indicam os pacientes mais propensos a desenvolver algum tipo de câncer. Logo, podemos perceber que a genética, a exposição a poluição do ar, consumo de alcool, fumante e pessoas com alto nível de obesidade possuem tendencia de desenvolver uma maior gravidade da doença. 
+
+| **Variáveis** | **Descrição** | 
+|---------------|---------------| 
+| Genética | O quanto a genética influencia no surgimento de um câncer |
+| ARPOLUICAO | O quanto a poluição do ar influencia no surgimento de um câncer |
+| ALCOOL | O quanto o consumo de bebidas alcólicas influencia no surgimento de um câncer |
+| FUMO | O quanto fumar pode influenciar no surgimento de um câncer |
+| OBESIDADE | O quanto a obesidade pode influenciar no surgimento de um câncer|
+| GRAVE | Nível de gravidade da doença|
 
 ## Tecnologias Utilizadas
 
@@ -41,11 +48,26 @@
 - Numpy
 - Matplotlib
 - Scikit-learn
-- Flask 
+- Seaborn
+- Gradio
 
 ## Como Executar 
 
+1. Criação do ambiente virtual
+
 ``` bash
+
+python -m venv venv
+source venv/bin/activate  # macOS/Linux
+venv\Scripts\activate     # Windows
+    
+```
+
+2. Instalando as dependências 
+
+``` bash
+
+pip install -r requirements.txt
     
 ```
 
