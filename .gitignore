@@ -172,3 +172,8 @@ cython_debug/
 
 # PyPI configuration file
 .pypirc
+
+
+modelo/modelotreinado.pkl
+modelo/*.pkl
+*.pkl
