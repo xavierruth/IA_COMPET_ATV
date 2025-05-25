@@ -177,3 +177,5 @@ cython_debug/
 modelo/modelotreinado.pkl
 modelo/*.pkl
 *.pkl
+
+.gradio
