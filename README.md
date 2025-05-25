@@ -29,6 +29,9 @@
 
 **Descrição**: Este conjunto de dados contém dados globais de pacientes com câncer relatados de 2015 a 2024, projetados para simular os principais fatores que influenciam o diagnóstico, o tratamento e a sobrevivência do câncer. Inclui uma variedade de características comumente estudadas na área médica, como idade, sexo, tipo de câncer, fatores ambientais e comportamentos de estilo de vida.
 
+**Link da interface**: https://76c1eb8d17b44030bc.gradio.live
+
+
 #### Dicionário de Dados
 
 Através de uma matriz de correlação, foi possível identificar que determinadas caracteristicas indicam os pacientes mais propensos a desenvolver algum tipo de câncer. Logo, podemos perceber que a genética, a exposição a poluição do ar, consumo de alcool, fumante e pessoas com alto nível de obesidade possuem tendencia de desenvolver uma maior gravidade da doença. 
